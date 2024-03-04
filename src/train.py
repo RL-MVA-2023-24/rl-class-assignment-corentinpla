@@ -227,8 +227,8 @@ class ProjectAgent:
                 state = next_state
         return episode_return, MC_avg_discounted_reward, MC_avg_total_reward, V_init_state
     
-#agent = ProjectAgent()
-#ep_length, disc_rewards, tot_rewards, V0 = agent.train(env,200)
-#agent.save()
-#score_agent: float = evaluate_HIV(agent=agent, nb_episode=1)
-#score_agent_dr: float = evaluate_HIV_population(agent=agent, nb_episode=15)
+# agent = ProjectAgent()
+# ep_length, disc_rewards, tot_rewards, V0 = agent.train(env,200)
+# agent.save()
+# score_agent: float = evaluate_HIV(agent=agent, nb_episode=1)
+# score_agent_dr: float = evaluate_HIV_population(agent=agent, nb_episode=15)
